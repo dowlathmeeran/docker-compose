@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  java-app:
+    image: dowlathmeeran/java-app
+    ports:
+      - 8083:8080
+  html-app:
+    image: dowlathmeeran/html-application
+    ports:
+      - 82:80
+  node-app:
+    image: dowlathmeeran/node-app
+    ports:
+      - 9000:9000
+  python-app:
+    image: dowlathmeeran/python-app
+    ports:
+      - 8001:8000
